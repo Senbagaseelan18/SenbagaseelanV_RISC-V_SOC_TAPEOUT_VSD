@@ -83,11 +83,10 @@ $ sudo make install
 # Run Yosys after installation
 $ yosys
 
----
 
 ### 📌 Notes & Tips  
 - 🟢 More RAM = faster simulations and fewer slowdowns.  
 - 🟢 SSD storage instead of HDD can **significantly reduce tool load times**.  
 - 🟢 Keep your system updated for compatibility with open-source EDA tools.  
 
----
+
