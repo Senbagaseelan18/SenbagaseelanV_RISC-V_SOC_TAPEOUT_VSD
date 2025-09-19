@@ -75,6 +75,8 @@ $ make
 # Install Yosys
 $ sudo make install
 
+---
+
 ## 📷 **Installation Verification**
 
 ```bash
