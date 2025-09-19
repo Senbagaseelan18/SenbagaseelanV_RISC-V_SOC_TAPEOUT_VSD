@@ -33,39 +33,47 @@ All detailed steps for installing **Yosys**, **Iverilog**, **GTKWave**, **Ngspic
 
 ---
 
-## 🛠️ Tool 1: Yosys  
+### 🧠 **1. Yosys – RTL Synthesis Tool**
 
-**Yosys** is an open-source framework for RTL synthesis, primarily used for Verilog designs.  
-It converts high-level Verilog RTL into gate-level netlists that can be used for simulation and layout.  
+<details>
+<summary><b>Purpose:</b> Converts RTL code into gate-level representations.</summary>
 
-### 🔽 Installation Steps  
+Yosys is an open-source framework for Verilog RTL synthesis, offering algorithms and optimization passes to transform RTL into gate-level netlists for further simulation and physical design.
+
+</details>
+
+---
+
+## ✅ **Yosys Installation**
 
 ```bash
-# Update packages
-$ sudo apt-get update  
+# Day 0 - Tools Installation
+## Yosys
 
 # Clone Yosys repository
-$ git clone https://github.com/YosysHQ/yosys.git  
-$ cd yosys  
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys 
 
-# Install required dependencies
-$ sudo apt install make               # If make is not installed  
+# Install make (if not installed)
+$ sudo apt install make 
+
+# Install dependencies
 $ sudo apt-get install build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
     graphviz xdot pkg-config python3 libboost-system-dev \
-    libboost-python-dev libboost-filesystem-dev zlib1g-dev  
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev
 
-# Configure with GCC
-$ make config-gcc  
+# Configure build with GCC
+$ make config-gcc
 
-# Initialize submodules
-$ git submodule update --init --recursive  
+# Initialize Git submodules (required for abc)
+$ git submodule update --init --recursive
 
 # Build Yosys
-$ make  
+$ make 
 
 # Install Yosys
-$ sudo make install  
+$ sudo make install
 
 ### 📌 Notes & Tips  
 - 🟢 More RAM = faster simulations and fewer slowdowns.  
