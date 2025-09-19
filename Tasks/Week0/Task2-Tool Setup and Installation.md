@@ -41,6 +41,7 @@ All detailed steps for installing **Yosys**, **Iverilog**, **GTKWave**, **Ngspic
 Yosys is an open-source framework for Verilog RTL synthesis, offering algorithms and optimization passes to transform RTL into gate-level netlists for further simulation and physical design.
 
 </details>
+Yosys is an open-source framework for Verilog RTL synthesis, offering algorithms and optimization passes to transform RTL into gate-level netlists for further simulation and physical design.
 
 ---
 
