@@ -258,3 +258,34 @@ $ magic
 <div align="center">
   ✅ <b>Magic VLSI Successfully Installed</b>
 </div>
+
+### 🧠 **6. Tool Versions**
+
+<details>
+<summary><b>Purpose:</b> Check installed versions of essential tools for VSD setup.</summary>
+
+</details>
+This section lists the versions of key tools installed on your system to ensure compatibility with the VLSI System Design environment.
+
+---
+
+## ✅ **Check Tool Versions**
+
+```bash
+# Check versions of essential tools
+$ git --version
+$ docker --version
+$ python3 --version
+$ python3 -m pip --version
+$ make --version
+```
+## 📷 **Verification**
+
+<p align="center">
+  <img src="images/ngspice.png" 
+       alt="Tool Version" width="600"/>
+</p>
+
+<div align="center">
+  ✅ <b>All Tool Versions Verified</b>
+</div>
