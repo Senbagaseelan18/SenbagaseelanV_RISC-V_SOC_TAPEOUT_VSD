@@ -75,7 +75,8 @@ $ make
 # Install Yosys
 $ sudo make install
 
----
+
+```bash
 
 ### 📌 Notes & Tips  
 - 🟢 More RAM = faster simulations and fewer slowdowns.  
