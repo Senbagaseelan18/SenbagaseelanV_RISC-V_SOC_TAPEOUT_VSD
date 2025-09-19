@@ -1,54 +1,54 @@
-# 🖥️ Tool Setup & Installation — Week0
+# ⚙️ Tools Installation – VSD Program Setup
 
 <div align="center">
 
-<img src="./images/yosys.png" alt="Yosys" width="100"/>
-<img src="./images/iverilog.png" alt="Iverilog" width="100"/>
-<img src="./images/gtkwave.png" alt="GTKWave" width="100"/>
+![Tools](https://img.shields.io/badge/Tools-Installation-blue?style=for-the-badge&logo=tools)
+![Setup](https://img.shields.io/badge/Setup-Ready-success?style=for-the-badge)
+![VLSI](https://img.shields.io/badge/VLSI-System%20Design-orange?style=for-the-badge&logo=chip)
 
 </div>
 
----
-
-## 🚀 Introduction
-This task focused on preparing the **SoC design environment** by installing and verifying the essential **open-source EDA tools** required for RTL-to-GDSII flow.  
-All tools were successfully set up and tested to ensure a smooth workflow for upcoming design tasks.  
+Welcome to the **Tools Installation Guide** for the **VLSI System Design (VSD) Program**.  
+This section ensures that all the required tools and dependencies are properly installed to create a smooth workflow for RTL design, simulation, and layout.  
 
 ---
 
-## 🛠️ Installed Tools
+## 🖥️ **System Requirements**
 
-| Tool        | Purpose                                 | Status |
-|-------------|-----------------------------------------|--------|
-| **Yosys**   | RTL synthesis & logic optimization      | ✅ Installed |
-| **Icarus Verilog (iverilog)** | Verilog simulation & compilation | ✅ Installed |
-| **GTKWave** | Waveform viewer & signal analysis       | ✅ Installed |
-| **Ngspice** | Analog & mixed-signal circuit simulation | ✅ Installed |
-| **Magic VLSI** | Layout design & DRC verification      | ✅ Installed |
-| **OpenLane** | End-to-end RTL → GDSII design flow     | ✅ Installed |
-| **Docker**   | Containerization platform for flows    | ✅ Installed |
+To guarantee stable performance during synthesis, simulation, and layout design, ensure your system meets the following specifications:
 
----
+<div align="center">
 
-## 🔑 Key Highlights
-- Installed **full EDA toolchain** required for chip design.  
-- Verified **functional correctness** of each tool.  
-- Set up **OpenLane environment with Docker** for automated RTL-to-GDSII flows.  
-- Ensured compatibility for **future RTL, synthesis, and layout tasks**.  
+| **Specification** 💻    | **Requirement** 📋      |
+|--------------------------|-------------------------|
+| **Operating System** 🐧  | Ubuntu 20.04 or higher |
+| **RAM** 💾               | 6 GB                   |
+| **Storage** 💿           | 50 GB HDD              |
+| **vCPUs** ⚡             | 4                      |
+
+</div>
+
+> 💡 **Pro Tip:** Allocating slightly higher resources (like 8 GB RAM) can further improve simulation speed and tool performance.
 
 ---
 
-## 📂 Environment Setup Snapshot
+## 📂 **Installation Instructions**
+
+Below are the installation steps for all required tools:  
+
+---
+
+### 1️⃣ **Yosys** — RTL Synthesis
 ```bash
-# Example check for yosys
-$ yosys -V
-Yosys 0.26+ (gcc 11.4.0, clang 14.0.6)
-
-# Example check for iverilog
-$ iverilog -V
-Icarus Verilog version 12.0
-
-# Example check for gtkwave
-$ gtkwave --version
-GTKWave Analyzer v3.3.118
-
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make
+$ sudo apt-get install build-essential clang bison flex \
+    libreadline-dev gawk tcl-dev libffi-dev git \
+    graphviz xdot pkg-config python3 libboost-system-dev \
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+$ git submodule update --init --recursive
+$ make 
+$ sudo make install
