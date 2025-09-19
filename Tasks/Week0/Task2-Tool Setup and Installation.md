@@ -74,3 +74,23 @@ $ make
 
 # Install Yosys
 $ sudo make install
+```
+
+## 📷 **Installation Verification**
+
+```bash
+# Run Yosys after installation
+$ yosys
+```
+
+<p align="center">
+  <img src="https://github.com/Senbagaseelan18/SenbagaseelanV_RISC-V_SOC_TAPEOUT_VSD/blob/main/Tasks/Week0/images/yosys.png" 
+       alt="Yosys Installed" width="600"/>
+</p>
+
+<div align="center">
+
+✅ **Yosys Successfully Installed**
+
+</div>
+
