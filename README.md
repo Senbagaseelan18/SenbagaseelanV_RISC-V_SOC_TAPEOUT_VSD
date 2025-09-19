@@ -1,26 +1,24 @@
 # 🖥️ Senbagaseelan V — RISC-V SoC Tapeout (VSD)
 
-<div align="center">
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/RISC--V-SoC-1E90FF?style=for-the-badge&logo=riscv&logoColor=white&labelColor=000000" />
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Tapeout-Program-FF4500?style=for-the-badge&logoColor=white&labelColor=000000" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/Participants-3500+-32CD32?style=for-the-badge&logoColor=white&labelColor=000000" />
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Location-India-FFD700?style=for-the-badge&logo=flag-in&logoColor=white&labelColor=000000" />
+    </td>
+  </tr>
+</table>
 
-<!-- Row 1 -->
-<span>
-![RISC-V](https://img.shields.io/badge/RISC--V-SoC-%231E90FF?style=for-the-badge&logo=riscv&logoColor=white&labelColor=%23000000&color=%2300BFFF)
-</span>
-<span>
-![Tapeout Program](https://img.shields.io/badge/Tapeout-Program-%23FF4500?style=for-the-badge&logoColor=white&labelColor=%23000000)
-</span>
-
-<br><br>
-
-<!-- Row 2 -->
-<span>
-![Participants](https://img.shields.io/badge/Participants-3500+-%2332CD32?style=for-the-badge&logoColor=white&labelColor=%23000000)
-</span>
-<span>
-![Country](https://img.shields.io/badge/Location-India-%23FFD700?style=for-the-badge&logo=flag-in&logoColor=white&labelColor=%23000000)
-</span>
-
-</div>
 
 
 Welcome to my **RISC-V SoC Tapeout Program VSD journey**, documenting each milestone from **RTL design to tool verification** and layout practices.
