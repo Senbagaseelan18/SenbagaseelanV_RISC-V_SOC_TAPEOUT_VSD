@@ -126,4 +126,40 @@ $ iverilog -v
   ✅ <b>Iverilog Successfully Installed</b>
 </div>
 
+### 🧠 **3. GTKWave – Waveform Viewer**
+
+<details>
+<summary><b>Purpose:</b> Analyzes and visualizes simulation waveforms for debugging.</summary>
+
+</details>
+GTKWave is an open-source waveform viewer used to analyze and visualize simulation outputs from Verilog and VHDL. It helps in debugging designs by displaying signal waveforms clearly.
+
+---
+
+## ✅ **GTKWave Installation**
+
+```bash
+# Update packages
+$ sudo apt update
+
+# Install GTKWave
+$ sudo apt install gtkwave
+```
+
+## 📷 **Installation Verification**
+
+```bash
+# Run GTKWave after installation
+$ gtkwave --version
+```
+<p align="center">
+  <img src="images/gtkwave.png" 
+       alt="GTKWave Installed" width="600"/>
+</p>
+
+<div align="center">
+  ✅ <b>GTKWave Successfully Installed</b>
+</div>
+
+
 
