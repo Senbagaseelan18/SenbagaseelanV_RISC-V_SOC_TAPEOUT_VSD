@@ -114,7 +114,7 @@ $ sudo apt-get install iverilog
 
 ```bash
 # Run Iverilog after installation
-$ iverilog -v
+$ iverilog 
 ```
 
 <p align="center">
@@ -150,7 +150,7 @@ $ sudo apt install gtkwave
 
 ```bash
 # Run GTKWave after installation
-$ gtkwave --version
+$ gtkwave 
 ```
 <p align="center">
   <img src="images/gtkwave.png" 
