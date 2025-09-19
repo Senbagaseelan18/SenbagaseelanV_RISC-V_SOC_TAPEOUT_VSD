@@ -75,6 +75,14 @@ $ make
 # Install Yosys
 $ sudo make install
 
+## 📷 **Installation Verification**
+
+```bash
+# Run Yosys after installation
+$ yosys
+
+---
+
 ### 📌 Notes & Tips  
 - 🟢 More RAM = faster simulations and fewer slowdowns.  
 - 🟢 SSD storage instead of HDD can **significantly reduce tool load times**.  
