@@ -289,3 +289,34 @@ $ make --version
 <div align="center">
   ✅ <b>All Tool Versions Verified</b>
 </div>
+
+<div align="center">
+
+## 🎉 **Installation Summary**
+
+| Tool | Status | Primary Use |
+|------|--------|-------------|
+| 🧠 **Yosys** | ✅ Complete | RTL Synthesis |
+| 📟 **Iverilog** | ✅ Complete | Verilog Simulation |
+| 📊 **GTKWave** | ✅ Complete | Waveform Analysis |
+| ⚡ **NGSpice** | ✅ Complete | Circuit Simulation |
+| 🎨 **Magic VLSI** | ✅ Complete | Layout Design |
+| 🛠️ **Tool Versions** | ✅ Verified | Environment Check |
+
+### 🚀 **Environment Ready for VLSI Design Journey!**
+
+</div>
+
+---
+
+<div align="center">
+
+**📂 Repository:** [SenbagaseelanV_RISC-V_SOC_TAPEOUT_VSD](https://github.com/Senbagaseelan18/SenbagaseelanV_RISC-V_SOC_TAPEOUT_VSD/tree/main)  
+**👨‍💻 Author:** [Senbagaseelan V.](https://github.com/Senbagaseelan18)  
+**📚 Program:** VLSI System Design (VSD)
+
+[![Follow](https://img.shields.io/github/followers/Senbagaseelan18?style=social)](https://github.com/Senbagaseelan18)
+[![Stars](https://img.shields.io/github/stars/Senbagaseelan18/SenbagaseelanV_RISC-V_SOC_TAPEOUT_VSD?style=social)](https://github.com/Senbagaseelan18/SenbagaseelanV_RISC-V_SOC_TAPEOUT_VSD)
+
+</div>
+
