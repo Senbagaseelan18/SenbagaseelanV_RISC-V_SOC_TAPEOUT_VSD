@@ -1,11 +1,17 @@
 # 🖥️ Senbagaseelan V — RISC-V SoC Tapeout (VSD)
-
 <div align="center">
 
-![RISC-V](https://img.shields.io/badge/RISC--V-SoC%20Tapeout-blue?style=for-the-badge&logo=riscv)
-![VSD Program](https://img.shields.io/badge/VSD-Program-orange?style=for-the-badge)
-![Participants](https://img.shields.io/badge/Participants-3500+-success?style=for-the-badge)
-![India](https://img.shields.io/badge/Made%20in-India-saffron?style=for-the-badge)
+<!-- RISC-V Badge -->
+![RISC-V](https://img.shields.io/badge/RISC--V-SoC-%23007ACC?style=for-the-badge&logo=riscv&logoColor=white&labelColor=%231F2937&color=%233595FF)
+
+<!-- Tapeout Program Badge -->
+![Tapeout Program](https://img.shields.io/badge/Tapeout-Program-%23FF6B6B?style=for-the-badge&logoColor=white&labelColor=%231F2937)
+
+<!-- Participants Badge -->
+![Participants](https://img.shields.io/badge/Participants-3500+-%2332CD32?style=for-the-badge&logoColor=white&labelColor=%231F2937)
+
+<!-- Country Badge -->
+![Country](https://img.shields.io/badge/Location-India-%23FFB400?style=for-the-badge&logo=flag-in&logoColor=white&labelColor=%231F2937)
 
 </div>
 
