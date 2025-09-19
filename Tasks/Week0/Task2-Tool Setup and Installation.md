@@ -93,3 +93,37 @@ $ yosys
 
 </div>
 
+### 🧠 **2. Iverilog – Verilog Simulator**
+
+<details>
+<summary><b>Purpose:</b> Compiles and simulates Verilog designs for functional verification.</summary>
+
+</details>
+Iverilog is an open-source Verilog simulation and compilation tool. It allows you to compile Verilog code into executable simulations and run functional verification of your designs before synthesis.
+
+---
+
+## ✅ **Iverilog Installation**
+
+```bash
+# Install Iverilog
+$ sudo apt-get install iverilog
+```
+
+## 📷 **Installation Verification**
+
+```bash
+# Run Iverilog after installation
+$ iverilog -v
+```
+
+<p align="center">
+  <img src="images/iverilog.png" 
+       alt="Iverilog Installed" width="600"/>
+</p>
+
+<div align="center">
+  ✅ <b>Iverilog Successfully Installed</b>
+</div>
+
+
