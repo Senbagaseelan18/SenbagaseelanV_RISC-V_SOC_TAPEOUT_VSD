@@ -4,14 +4,14 @@
 This folder contains my completed work for **Week0** of the RISC-V SoC Tapeout Program.  
 It includes two main tasks:  
 
-1. Summary of Digital VLSI SoC Design and Planning  
-2. Tool Setup and Installation  
+1. [Task 1: Digital VLSI SoC Design and Planning Summary](./Task1-Digital%20VLSI%20SoC%20Design%20and%20Planning%20Summary.md)  
+2. [Task 2: Tool Setup and Installation](./Task2-Tool%20Setup%20and%20Installation.md)  
 
 ---
 
 ## ✅ Completed Tasks
 
-### 📝 Task 1: Summary of Digital VLSI SoC Design and Planning
+### 📝 Task 1: Digital VLSI SoC Design and Planning Summary
 - Documented the complete SoC design flow from **chip modeling** to **final integration**.  
 - Key topics covered:  
   - Chip Specifications (C model + C testbench)  
@@ -20,7 +20,7 @@ It includes two main tasks:
   - SoC Integration (floorplanning, placement, routing)  
   - Physical Verification (DRC & LVS)  
   - Final SoC Applications  
-- 📄 Document: [Task1-Digital VLSI SoC Design and Planning Summary.md](./Task1-Digital VLSI SoC Design and Planning Summary.md)
+- 📄 Document: [Task1-Digital VLSI SoC Design and Planning Summary](./Task1-Digital%20VLSI%20SoC%20Design%20and%20Planning%20Summary.md)
 
 ---
 
@@ -34,7 +34,7 @@ It includes two main tasks:
   - ⚡ **NGSpice** – Circuit Simulator  
   - 🎨 **Magic VLSI** – Layout Tool  
   - 🛠️ Checked versions of essential tools: Git, Docker, Python3, pip, Make  
-- 📄 Document: [Task2-Tool Setup and Installation.md](./Task2-Tool Setup and Installation.md)
+- 📄 Document: [Task2-Tool Setup and Installation](./Task2-Tool%20Setup%20and%20Installation.md)
 
 ---
 
