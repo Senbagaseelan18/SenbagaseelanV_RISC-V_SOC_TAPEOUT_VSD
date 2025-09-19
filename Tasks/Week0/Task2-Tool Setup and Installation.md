@@ -252,7 +252,7 @@ $ magic
 
 <p align="center">
   <img src="images/magic.png" 
-       alt="Magic VLSI Installed" width="600"/>
+       alt="Magic VLSI Installed" width="1200"/>
 </p>
 
 <div align="center">
