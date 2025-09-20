@@ -282,7 +282,7 @@ $ make --version
 ## 📷 **Verification**
 
 <p align="center">
-  <img src="images/ngspice.png" 
+  <img src="images/version.png" 
        alt="Tool Version" width="600"/>
 </p>
 
