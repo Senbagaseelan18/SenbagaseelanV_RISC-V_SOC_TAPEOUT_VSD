@@ -122,6 +122,6 @@ This week focuses on **preparing the complete VSD environment** to ensure smooth
 ## 👨‍💻 Participant
 
 **Senbagaseelan V**  
-📧 senbagaseelan18@gmail.com  
+📧 senbagaseelan2005@gmail.com  
 
 > Documenting my journey through RISC-V SoC Tapeout using open-source VSD tools, with weekly progress, task documentation, and hands-on SoC design experience.
